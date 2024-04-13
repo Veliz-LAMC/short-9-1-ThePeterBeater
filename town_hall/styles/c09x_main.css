@@ -160,6 +160,12 @@ aside img {
 	padding-bottom: 1em;
 }
 
+#right{
+	order: 2;
+	padding-right: 25px;
+}
+
+
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -186,6 +192,7 @@ footer p {
 	header img { float: none; }
 	header {
         display: flex;
+				flex-direction: row;
         text-align: center;
     }
     header, footer {
